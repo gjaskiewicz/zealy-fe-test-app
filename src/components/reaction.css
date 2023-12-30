@@ -1,0 +1,20 @@
+.Reaction {
+    background: #3498db;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: '1px solid';
+    border-color: '#2ecc71';
+
+    transition: transform 0.1s ease;
+    transform-origin: center center;
+    transform: scale(0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reaction.visible {
+    transform: scale(1);
+  }

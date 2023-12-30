@@ -1,0 +1,40 @@
+.Comments {
+    border-radius: 15px;
+
+    transition: transform 0.3s ease;
+    transform-origin: top left;
+    transform: scale(0);
+}
+
+.Comments.visible {
+    transform: scale(1);    
+}
+
+.controlButton {
+    font-size: '20px';
+    cursor: 'pointer';
+    margin: '0 5px';  
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    margin: 5px;
+}
+
+.inputComment {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    padding: 2px;
+}
+
+.commentElements {
+    list-style: none;
+    padding: 0;
+}
+
+.commentElements li {
+    text-align: left;
+    margin-bottom: 8px; 
+}

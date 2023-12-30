@@ -1,0 +1,16 @@
+.CommentItem {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.CommentText {
+    color: black;
+    font-size: 22px;
+}
+
+.CommentAddedOn {
+    color: #ccc;
+    font-size: 14px;
+}
